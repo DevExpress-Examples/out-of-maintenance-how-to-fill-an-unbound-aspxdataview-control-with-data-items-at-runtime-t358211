@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MyDataViewTemplate.cs](./CS/App_Code/MyDataViewTemplate.cs) (VB: [MyDataViewTemplate.vb](./VB/App_Code/MyDataViewTemplate.vb))
+* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
+* [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx](./VB/Default.aspx))
+<!-- default file list end -->
 # How to fill an unbound ASPxDataView control with data items at runtime
 
 
