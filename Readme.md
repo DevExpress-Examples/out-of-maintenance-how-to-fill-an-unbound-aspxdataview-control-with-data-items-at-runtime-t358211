@@ -6,6 +6,9 @@
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 <!-- default file list end -->
 # How to fill an unbound ASPxDataView control with data items at runtime
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t358211/)**
+<!-- run online end -->
 
 
 <p>Aside from <a href="http://help.devexpress.com/#AspNet/CustomDocument115695">binding to a data source</a>, you can populate the <a href="https://documentation.devexpress.com/#AspNet/clsDevExpressWebASPxDataViewtopic">ASPxDataView</a> control with <a href="http://help.devexpress.com/#AspNet/CustomDocument115725">data items</a> manually. <br><br>Data items can be added into the <a href="http://larix/ReferenceBrowserMain_16_1/LoadItem.aspx?Member=P%3aDevExpress.Web.ASPxDataView.Items&Template=MemberPropertyTopic">ASPxDataView.Items</a> collection in code behind by using the <a href="http://larix/ReferenceBrowserMain_16_1/LoadItem.aspx?Member=M%3aDevExpress.Web.DataViewItemCollection.Add&Template=MemberOverloadTopic">DataViewItemCollection.Add</a> method. In this case, a custom data object with the required properties should be assigned to the <a href="http://larix/ReferenceBrowserMain_16_1/LoadItem.aspx?Member=P%3aDevExpress.Web.DataViewItem.DataItem&Template=MemberPropertyTopic">DataViewItem.DataItem</a> property value. The <a href="http://larix/ReferenceBrowserMain_16_1/LoadItem.aspx?Member=P%3aDevExpress.Web.ASPxDataView.Items&Template=MemberPropertyTopic">ASPxDataView.Items</a> collection cannot be popularized declaratively.<br><br>In this example, an object of an anonymous type with custom data fields is created for each data item. The <a href="https://documentation.devexpress.com/#AspNet/DevExpressWebASPxDataView_ItemTemplatetopic">item template</a> for displaying data items is also created at runtime.</p>
