@@ -7,7 +7,7 @@ public partial class _Default : System.Web.UI.Page {
     const int itemsCount = 10;
     protected void DataView_Load(object sender, System.EventArgs e) {
         AddDataItems(DataView);
-        DataView.ItemTemplate = new MyDataViewTemplate();
+        DataView.ItemTemplate = new MyDataViewTemplate(); 
     }
     void AddDataItems(ASPxDataView dataView) {
         for (int i = 1; i <= itemsCount; i++) {
