@@ -6,7 +6,7 @@ using DevExpress.Web;
 
 public partial class _Default : System.Web.UI.Page {
     #region #addingItems
-    const int itemsCount = 10;
+    const int itemsCount = 10; 
     protected void DataView_Load(object sender, System.EventArgs e) {
         DataView.DataSource = GetDataSource();
         DataView.ItemTemplate = new MyDataViewTemplate();
