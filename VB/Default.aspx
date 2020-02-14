@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" CodeFile="Default.aspx.vb" Inherits="_Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <!DOCTYPE html>
 
@@ -8,11 +8,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <!--region #Markup-->
         <dx:ASPxDataView runat="server" ID="DataView" OnLoad="DataView_Load">
             <SettingsTableLayout ColumnCount="2" RowsPerPage="2" />
         </dx:ASPxDataView>
-        <!--endregion #Markup-->
     </form>
 </body>
 </html>
