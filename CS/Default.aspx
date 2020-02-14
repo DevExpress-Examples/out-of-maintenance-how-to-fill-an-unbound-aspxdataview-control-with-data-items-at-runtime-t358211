@@ -8,11 +8,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <!--region #Markup-->
         <dx:ASPxDataView runat="server" ID="DataView" OnLoad="DataView_Load">
             <SettingsTableLayout ColumnCount="2" RowsPerPage="2" />
         </dx:ASPxDataView>
-        <!--endregion #Markup-->
     </form>
 </body>
 </html>
